@@ -20,7 +20,7 @@ fruit_to_show = my_fruit_list.loc[fruits_selected]
 # Display the table on the page
 streamlit.dataframe(fruit_to_show)
 
-#New Section to display the fruitvice data
+# New Section to display the fruitvice data
 
 streamlit.header("Fruityvice Fruit Advice!")
 
